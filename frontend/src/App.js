@@ -19,17 +19,24 @@ function App()
       </div>
         <div className='img'>
           <div className="chat-container">
-            <div className="msg"> 
-              <input 
-                type = "text" 
-                placeholder="Enter message here"
-                onChange={getMsg}
-                value={msg} 
-                />
-              <button onClick={getMsg}>Send</button>
+            
+            <div className='bot-msg'>
+            <p>Hi, I am the Covid-19 Chatbot. Feel free to ask me any questions.</p>
             </div>
-              <h1>{msg}</h1>
+            <div className='user-msg'>
+              <p>{msg}</p>
+            </div>
           </div>
+          <div className="msg-container"> 
+            <input 
+              type = "text" 
+              className='msg'
+              placeholder="Enter message here"
+              onChange={getMsg}
+              value={msg} 
+            />
+            <button onClick={getMsg}>Send</button>
+            </div>
         </div>  
     </div>
   );
