@@ -19,10 +19,11 @@ function App()
       </div>
         <div className='img'>
           <div className="chat-container">
-            
+            <p className='chatbot-header'>Chatbot</p>
             <div className='bot-msg'>
             <p>Hi, I am the Covid-19 Chatbot. Feel free to ask me any questions.</p>
             </div>
+            <p className='user-header'>You</p>
             <div className='user-msg'>
               <p>{msg}</p>
             </div>
