@@ -32,11 +32,11 @@ function App()
             <input 
               type = "text" 
               className='msg'
-              placeholder="Enter message here"
+              placeholder="Write your message here"
               onChange={getMsg}
               value={msg} 
             />
-            <button onClick={getMsg}>✉️ Send</button>
+            <button className="btn-send" onClick={getMsg}>✉️ Send</button>
             </div>
         </div>  
     </div>
