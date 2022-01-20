@@ -4,12 +4,13 @@ import './App.css';
 
 function App() 
 {
-  const [msg, setMsg] = useState('');
+  const [userMsg, setUserMsg] = useState('');
+  const [botMsg, setBotMsg] = useState('Hi, I am the Covid-19 Chatbot. Feel free to ask me any questions.');
 
   const getMsg = (e) => 
   {
       console.log("got Message...");
-      setMsg(e.target.value);
+      setUserMsg(e.target.value);
   }
 
   return (
@@ -21,11 +22,11 @@ function App()
           <div className="chat-container">
             <p className='chatbot-header'>Chatbot</p>
             <div className='bot-msg'>
-            <p>Hi, I am the Covid-19 Chatbot. Feel free to ask me any questions.</p>
+            <p>{botMsg}</p>
             </div>
             <p className='user-header'>You</p>
             <div className='user-msg'>
-              <p>{msg}</p>
+              <p>{userMsg}</p>
             </div>
           </div>
           <div className="msg-container"> 
@@ -34,7 +35,7 @@ function App()
               className='msg'
               placeholder="Write your message here"
               onChange={getMsg}
-              value={msg} 
+              value={userMsg} 
             />
             <button className="btn-send" onClick={getMsg}>✉️ Send</button>
             </div>
