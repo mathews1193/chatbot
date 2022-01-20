@@ -15,7 +15,7 @@ function App()
   return (
     <div className="App">
       <div className="title">
-        <h1>Covid-19 ChatBot</h1>
+        <h1>CBL Covid-19 ChatBot</h1>
       </div>
         <div className='img'>
           <div className="chat-container">
@@ -36,7 +36,7 @@ function App()
               onChange={getMsg}
               value={msg} 
             />
-            <button onClick={getMsg}>Send</button>
+            <button onClick={getMsg}>✉️ Send</button>
             </div>
         </div>  
     </div>
