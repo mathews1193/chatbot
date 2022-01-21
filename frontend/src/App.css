@@ -1,13 +1,13 @@
+.container{
+  padding-top: 200px;
+}
 .img{
   background-image: url("https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?cs=srgb&dl=pexels-pixabay-256541.jpg&fm=jpg");
   background-Position: center center;
   height:100vh;
+
   background-size:cover;
   background-repeat: no-repeat;
-}
-.title{
-  background-color: #567cba;
-  text-align: center;
 }
 .chat-container 
 {
@@ -18,6 +18,10 @@
  align-items: center;
  width:60%;
  height:60%;
+}
+.api-container{
+  width:50%;
+  height:50%;
 }
 .msg-container {
   text-align:center;

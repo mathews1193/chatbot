@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import './App.css';
+import Footer from './components/Footer/Footer';
+import NavBar from './components/NavBar/NavBar';
 
 function App() 
 {
@@ -15,9 +17,10 @@ function App()
 
   return (
     <div className="App">
-      <div className="title">
-        <h1>CBL Covid-19 ChatBot</h1>
-      </div>
+      <NavBar />
+      <div className='container'>
+
+      
         <div className='img'>
           <div className="chat-container">
             <p className='chatbot-header'>Chatbot</p>
@@ -40,6 +43,8 @@ function App()
             <button className="btn-send" onClick={getMsg}>✉️ Send</button>
             </div>
         </div>  
+        </div>
+        <Footer/>
     </div>
   );
 }
