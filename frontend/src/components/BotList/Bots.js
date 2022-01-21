@@ -6,8 +6,8 @@ function Bots() {
    
     return (
         <div>
-            <div className="chat-container">
-                <p className='chatbot-header'>Chatbot</p>
+            <div className="bot-container">
+                <p className='bot-header'>Chatbot</p>
                 <div className="msg-container"> 
                     <input 
                     type = "text" 

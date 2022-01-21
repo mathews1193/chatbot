@@ -1,0 +1,15 @@
+.bot-container {
+    background-color:grey;
+    border-radius: 0px 0px 16px 16px;
+    border: 2px solid whitesmoke;
+    height:100vh;
+    width:70vh;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:30px;
+    align-items: center;
+   }
+   .msg-container {
+       padding:40px 0px;
+       text-align:center;
+     }
