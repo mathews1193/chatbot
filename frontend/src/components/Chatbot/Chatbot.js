@@ -13,6 +13,7 @@ function Chatbot() {
     return (
         <div>
             <div className="chat-container">
+                <h1>Chatbot Name</h1>
                 <p className='chatbot-header'>Chatbot</p>
                 <div className='bot-msg'>
                     <p>{botMsg}</p>

@@ -1,15 +1,42 @@
 .bot-container {
-    background-color:grey;
-    border-radius: 0px 0px 16px 16px;
+    border-radius: 25px;
     border: 2px solid whitesmoke;
-    height:100vh;
+    height:110vh;
     width:70vh;
     margin-top:20px;
     margin-left:auto;
     margin-right:30px;
     align-items: center;
+
+    appearance: none;
+    background: white;
+    border:none;
+    outline:none;
+    background-color: rgba(255,255,255,0.5);
+   
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+  
+    transition: 0.4s ease;
    }
-   .msg-container {
-       padding:40px 0px;
-       text-align:center;
-     }
+.msg-container {
+    padding:40px 0px;
+    text-align:center;
+}
+.bots{
+    border-radius: 30px;
+    text-align:center;
+    width:90%;
+    height:50px;
+  }
+.bot-list {
+    list-style-type: none;
+    align-items: center;
+    padding-bottom:40px;
+    font-size: 30px;
+}
+.bot-img {
+    height:20%;
+    width:20%;
+    border-radius: 40px;
+    padding-right:80px;
+}
