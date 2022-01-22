@@ -1,7 +1,7 @@
 .container{
   padding-top: 200px;
   background-color: white;
-  height:300vh;
+  height:250vh;
 }
 .grid {
   display: flex;

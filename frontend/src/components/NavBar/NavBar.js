@@ -10,9 +10,9 @@ function NavBar() {
         <div>
             <nav className='navbar'>
                 <ul className='list'>
-                    <h3 className="nav">Home</h3>
-                    <h3 className="nav">About Us</h3>
-                    <h3 className="nav">Contact Us</h3>
+                    <p className="nav">Home</p>
+                    <p className="nav">About Us</p>
+                    <p className="nav">Contact Us</p>
                 </ul>
             <div className="title">
                 <h1>CBL Covid-19 Information ChatBot</h1>
