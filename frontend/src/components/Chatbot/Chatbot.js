@@ -21,8 +21,9 @@ function Chatbot() {
                 <p className='user-header'>You</p>
                 <div className='user-msg'>
                     <p>{userMsg}</p>
-                </div>
-                <div className="msg-container"> 
+                </div>   
+            </div>
+            <div className="msg-container"> 
                     <input 
                     type = "text" 
                     className='msg'
@@ -32,7 +33,6 @@ function Chatbot() {
                     />
                     <button className="btn-send" onClick={getMsg}>✉️ Send</button>
                 </div>
-            </div>
             
         </div>
     )

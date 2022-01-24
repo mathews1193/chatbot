@@ -1,7 +1,7 @@
 .bot-container {
     border-radius: 25px;
     border: 2px solid whitesmoke;
-    height:90vh;
+    height:70vh;
     width:50vh;
     margin-top:20px;
     margin-left:auto;
@@ -18,7 +18,7 @@
   
     transition: 0.4s ease;
    }
-.msg-container {
+.bot-msg-container {
     padding:40px 0px;
     text-align:center;
 }
@@ -32,8 +32,7 @@
     list-style-type: none;
     align-items: center;
     padding-bottom:40px;
-    font-size: 30px;
-    width:90%;
+    width:80%;
     height:50%;
 }
 .bot-img {

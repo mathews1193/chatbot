@@ -15,7 +15,7 @@ function Bots() {
     return (
         <div>
             <div className="bot-container">
-                <div className="msg-container"> 
+                <div className="bot-msg-container"> 
                     <input 
                     type = "text" 
                     className='bots'

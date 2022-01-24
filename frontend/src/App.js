@@ -11,12 +11,18 @@ function App()
 {
   return (
     <div className="App">
-      <NavBar />
+     <NavBar />
       <div className='container'>
         <div className="grid">
-          <Bots/>
-          <Chatbot/>
+          <div className="bot">
+             <Bots/>
+          </div>
+          <div className='chat'>
+            <Chatbot/> 
+          </div>
+          
         </div>
+        
         <NearbyLocation/>
       </div>
         <Footer/>

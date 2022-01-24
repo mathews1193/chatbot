@@ -4,11 +4,11 @@ import "./NearbyLocation.css";
 function NearbyLocation() {
     return (
         <div>
-            <div className="bot-container">
-                <div className="msg-container"> 
+            <div className="nearby-container">
+                <div className="nearby-msg-container"> 
                     <input 
                     type = "text" 
-                    className='bots'
+                    className='nearby-location'
                     placeholder="Enter Zipcode"
                     />
                 </div>
